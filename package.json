@@ -1,0 +1,29 @@
+{
+  "name": "next-netlify-starter",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cypress": "^10.0.3",
+    "next": "^12.1.5",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^17.0.2",
+    "react-modal-video": "^1.2.8",
+    "react-owl-carousel3": "^2.2.5",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.49.11",
+    "sweetalert2": "^11.4.8",
+    "sweetalert2-react-content": "^4.2.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.8.0"
+  }
+}
